@@ -47,3 +47,5 @@ function call_qsub {
 
 #call_qsub $cores $output_dir bwa "time bwa aln -l 40 -n 4 -t $cores $bwa_index $pe1 > tmp1"
 #call_qsub $cores $output_dir bwa "time bwa aln -l 40 -n 4 -t $cores $bwa_index $pe2 > tmp2"
+
+test=`sh ~/dev/sunny/is_running.sh $JOB_ID`
