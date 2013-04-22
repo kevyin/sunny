@@ -4,7 +4,7 @@
 mkdir bin
 mkdir data
 mkdir doc
-mkdir results
+mkdir working_dir
 mkdir src
 mkdir resources
 touch README.txt
