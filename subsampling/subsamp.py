@@ -26,6 +26,9 @@ samples = sys.argv[1].split(":")
 #for entry in file:
     #print entry
 
+sys.stderr.write(str(samples) + "\n")
+
+
 
 subsamp_perc = sys.argv[3]
 sys.stderr.write("Subsampling " + str(subsamp_perc) + "% of reads" + "\n")
